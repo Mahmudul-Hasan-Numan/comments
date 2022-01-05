@@ -1,0 +1,11 @@
+.comments{
+    border: 3px dashed mediumvioletred;
+    border-radius: 10px;
+    background-color: moccasin;
+    padding: 20px;
+    margin: 10px;
+}
+#comments-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
